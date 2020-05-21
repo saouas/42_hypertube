@@ -1,0 +1,45 @@
+.edit {
+    text-align: center;
+    width: 32vw;
+    min-width: 450px;
+    padding : 32px;
+    opacity: .85;
+    background-color: black;
+}
+
+.editform {
+    margin : auto;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.editsubmit {
+    color : white;
+    font-size: 18px;
+    font-style: bold;
+    width: 100%;
+    background-color: #bf1b2b;
+    padding: 20px   
+}
+
+.editsubmit:hover {
+    background-color: #d40f0f;
+    transition: .5s ease
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.avatar:hover {
+    transition: .5s ease;
+    opacity: 0.6;
+}
+
+.endmargin {
+    margin-top: 150px;
+}

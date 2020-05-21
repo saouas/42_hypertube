@@ -1,0 +1,19 @@
+
+const initial = {
+  logged: false,
+  auth: null,
+  username: ''
+}
+
+const user = (state = initial, action) => {
+  switch (action.type) {
+    case 'SET_LOGGED':
+      return Object.assign({}, state, {
+        logged: action.logged
+      });
+    default:
+      return state
+  }
+}
+
+export default user

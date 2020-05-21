@@ -1,0 +1,11 @@
+export const e_error = {
+    BAD_CREDENTIALS: 1,
+    VALIDATION_ERROR: 2,
+    USERNAME_EXIST: 3,
+    MAIL_EXIST: 4,
+    CANNOT_GET_ACCESS_TOKEN: 5,
+    FORBIDDEN_AUTH: 6,
+    NOT_FOUND: 7,
+    INVALID_TOKEN: 8,
+    INVALID_FILE: 9
+}
